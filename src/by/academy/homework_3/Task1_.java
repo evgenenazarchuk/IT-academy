@@ -1,7 +1,7 @@
 package by.academy.homework_3;
 import java.util.*;
 
-public class Task2 {
+public class Task1_ {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
