@@ -6,6 +6,7 @@
 	d) если char, вывести код символа
 	e) String, вывести на экран строку в виде ("Hello " + переменная)
 	f) во всех остальных случаях вывести на экран ("Unsupported type");
+	hello
  */
 package by.academy.homework_2;
 
