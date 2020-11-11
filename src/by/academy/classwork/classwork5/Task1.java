@@ -1,4 +1,4 @@
-package by.academy.classwork5;
+package by.academy.classwork.classwork5;
 
 public class Task1 {
     /*
