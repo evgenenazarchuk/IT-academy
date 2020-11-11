@@ -2,7 +2,7 @@
 Ввести с консоли число от 1 до 10, вывести на экран таблицу умножения для этого числа. (10 чисел).
  */
 
-package by.academy.homework_2;
+package by.academy.homework.homework_2;
 import java.util.Scanner;
 
 

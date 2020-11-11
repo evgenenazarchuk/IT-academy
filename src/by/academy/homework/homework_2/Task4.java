@@ -1,7 +1,7 @@
 /*
 Выводить на консоль степень двойки, пока результат не будет больше, чем 1_000_000.
  */
-package by.academy.homework_2;
+package by.academy.homework.homework_2;
 
 public class Task4 {
     public static void main(String[] args) {

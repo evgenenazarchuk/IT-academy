@@ -8,7 +8,7 @@
 	f) во всех остальных случаях вывести на экран ("Unsupported type");
 	hello
  */
-package by.academy.homework_2;
+package by.academy.homework.homework_2;
 
 import java.util.Scanner;
 
