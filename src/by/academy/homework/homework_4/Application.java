@@ -15,8 +15,12 @@ public class Application {
         deal.addProduct(new Vine(7.00, "2", "peach", 7));
         deal.addProduct(new Milk(9.00, "3", "banana", 15, "black"));
         deal.addProduct(new Cheese(30.00, "4", "Russia", 34));
+        deal.deleteProduct(2);
+        System.out.println("--------------------------------");
         deal.printProducts();
-        System.out.println("---------------------------------------");
+
+        Person number1 = new Person();
+
         Person.americanPhoneValidator.isValid("+178523145");
         Person.belarusPhoneValidator.isValid("+375259394024");
         Person.emailAddres.isValid("e.nazarchuk96@gmail.com");
