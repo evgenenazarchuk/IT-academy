@@ -6,6 +6,7 @@ public class Person {
     public static final Validator americanPhoneValidator = new AmericanPhoneValidator();
     public  static final Validator belarusPhoneValidator = new BelarusPhoneValidator();
     public static final Validator emailAddres = new EmailValidator();
+    //DateOfBirth dateOfBirth = new DateOfBirth();
     String name;
     double cash;
 
