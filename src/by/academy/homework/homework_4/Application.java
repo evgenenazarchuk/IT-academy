@@ -15,7 +15,8 @@ public class Application {
         deal.addProduct(new Vine(7.00, "2", "peach", 7));
         deal.addProduct(new Milk(9.00, "3", "banana", 15, "black"));
         deal.addProduct(new Cheese(30.00, "4", "Russia", 34));
-        deal.deleteProduct(2);
+        deal.printProducts();
+        //deal.deleteProduct(2);
         System.out.println("--------------------------------");
         deal.printProducts();
 
@@ -24,7 +25,10 @@ public class Application {
         Person.americanPhoneValidator.isValid("+178523145");
         Person.belarusPhoneValidator.isValid("+375259394024");
         Person.emailAddres.isValid("e.nazarchuk96@gmail.com");
+        Person birth = new Person();
+        birth.dateOfBirth();
         deal.deadLinedate();
+
 
 
 
