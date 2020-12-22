@@ -20,11 +20,13 @@ public class Task1 {
                     file.newLine();
                     file.flush();
                 }
+
             } while (!line.toLowerCase().equals("stop"));
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
 }

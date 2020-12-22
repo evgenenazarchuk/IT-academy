@@ -10,16 +10,18 @@ public class Task2 {
         try (BufferedReader br = new BufferedReader(new FileReader(originalFile));
              BufferedWriter bw = new BufferedWriter(new FileWriter(newFile))) {
             String s;
-          
+
             while ((s = br.readLine()) != null) {
 
                 bw.write(s.replaceAll("\\s", ""));
                 bw.newLine();
 
             }
+
         } catch (IOException e) {
             System.err.println("error during copying: " + e.getMessage());
         }
+
     }
 }
 
