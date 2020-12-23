@@ -17,14 +17,14 @@ public class Task4 {
 
         }
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             File file = new File(dir, i + 1 + ".txt");
             if (!file.exists()) {
                 file.createNewFile();
 
             }
 
-            char[] arr = new char[1024];
+            char[] arr = new char[576];
             int j = 0;
             StringBuilder str = new StringBuilder();
             try (FileReader fr = new FileReader(src)) {
@@ -39,25 +39,31 @@ public class Task4 {
             System.out.println(word.length());
             try (FileWriter fw = new FileWriter(file)) {
 
-                int maz = (int) (Math.random() * 574);
+                int maz = (int) (Math.random() * 576);
                 fw.write(word.substring(0, maz) + "           ");
 
 
             }
         }
-        File fol = new File("result2.txt");
 
 
-        try (FileWriter ff = new FileWriter(fol)) {
+        try (FileWriter ff = new FileWriter(q)) {
             for (File file : dir.listFiles()) {
-                System.out.println(file.getName());
-                ff.write(file.getName());
 
+                ff.write("File name: " + file.getName() + " & length: " + file.length() + "\n");
 
             }
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
         }
     }
 }
+
+
+
+
+
+
 
 
 
